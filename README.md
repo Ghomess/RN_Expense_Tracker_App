@@ -13,13 +13,22 @@ doesn't have mask input
   screens
 - [React Context API](https://reactjs.org/docs/context.html) for managing the
   state of the app
+- [React Native Dotenv](https://github.com/goatandsheep/react-native-dotenv) for
+  using environment variables
+- [Axios](https://github.com/axios/axios) for making HTTP requests to the
+  Firebase Realtime Database API
 
 ## How to Execute
 
 1. Clone the repository
 2. Install the dependencies with `npm install` or `yarn install`
-3. Run the app with `npx expo start`
-4. Open the app on your device or simulator
+3. Create a `.env` file in the root directory and add your Firebase Realtime
+   Database API key:
+   ```
+   API_URL=your_firebase_realtime_database_api_url
+   ```
+4. Run the app with `npx expo start`
+5. Open the app on your device or simulator
 
 ## Screenshots
 
